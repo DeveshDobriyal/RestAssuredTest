@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 13.334 sec <<< FAILURE! - in TestSuite
+testRequest(test.BaseTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at test.BaseTest.performAction(BaseTest.java:168)
+	at test.BaseTest.testRequest(BaseTest.java:129)
+
+testbogas(test.BaseTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: 2
+
